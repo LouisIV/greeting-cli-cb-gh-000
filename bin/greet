@@ -3,5 +3,5 @@ require_relative "../lib/greeting.rb"
 
 # code your CLI here!
 puts "Hi, i'm Hal!"
-gets name "What's your name? : "
+name = gets "What's your name? : "
 greeting(name)
